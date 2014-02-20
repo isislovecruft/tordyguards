@@ -5,6 +5,9 @@
 * add repo with debian source
 * reorganize code:
  * create tordyguards python package with tor_change_state.py (to be placed in /usr/lib/python2.7/dist-packages/tordyguards)
+ * are if-pre-up.d scripts always run using wicd?. In that case there's no need
+  to place the script in wicd/scripts/preconnect, just in if-pre-up.d and it'll
+  be used by other network managers
  * wicd_tor_change_state.py 
  * settings.py 
   * rename it

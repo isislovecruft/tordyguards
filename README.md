@@ -54,6 +54,8 @@ TorDyGuards contains:
   `/etc/wicd/scripts/preconnect`, will receive the bssid of the network the user
   is connecting to, and call `tor_change_state.py` with it.
 
+See TODO.md
+
 Adding support for other Tor packages and other network managers
 -----------------------------------------------------------------
 
